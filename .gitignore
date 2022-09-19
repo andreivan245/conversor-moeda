@@ -1,70 +1,144 @@
-# Created by https://www.toptal.com/developers/gitignore/api/eclipse
-# Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
+# Criado por https://www.toptal.com/developers/gitignore/api/eclipse,windows,linux,macos
+# Edite em https://www.toptal.com/developers/gitignore?templates=eclipse,windows,linux,macos
 
 ### Eclipse ###
-.metadata
-bin/
+.metadados
+caixa/
 tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
-local.properties
-.settings/
+propriedades.local
+.definições/
 .loadpath
-.recommenders
+.recomendadores
 
-# External tool builders
+# Construtores de ferramentas externas
 .externalToolBuilders/
 
-# Locally stored "Eclipse launch configurations"
-*.launch
+# "Configurações de inicialização do Eclipse" armazenadas localmente
+*.lançar
 
-# PyDev specific (Python IDE for Eclipse)
+# PyDev específico (Python IDE para Eclipse)
 *.pydevproject
 
-# CDT-specific (C/C++ Development Tooling)
+# Específico para CDT (ferramentas de desenvolvimento C/C++)
 .cproject
 
 # CDT- autotools
 .autotools
 
-# Java annotation processor (APT)
+# Processador de anotações Java (APT)
 .factorypath
 
-# PDT-specific (PHP Development Tools)
+# Específico de PDT (Ferramentas de Desenvolvimento PHP)
 .buildpath
 
-# sbteclipse plugin
-.target
+# plugin sbtelipse
+.alvo
 
-# Tern plugin
+# Plugin Tern
 .tern-project
 
-# TeXlipse plugin
+# Plugin TeXlipse
 .texlipse
 
 # STS (Spring Tool Suite)
 .springBeans
 
-# Code Recommenders
-.recommenders/
+# Recomendadores de código
+.recomendadores/
 
-# Annotation Processing
+# Processamento de anotações
 .apt_generated/
 .apt_generated_test/
 
-# Scala IDE specific (Scala & Java development for Eclipse)
+# Scala IDE específico (desenvolvimento Scala e Java para Eclipse)
 .cache-main
 .scala_dependencies
-.worksheet
+.planilha
 
-# Uncomment this line if you wish to ignore the project description file.
-# Typically, this file would be tracked if it contains build/dependency configurations:
-#.project
+# Descomente esta linha se desejar ignorar o arquivo de descrição do projeto.
+# Normalmente, esse arquivo seria rastreado se contiver configurações de compilação/dependência:
+#.projeto
 
-### Eclipse Patch ###
-# Spring Boot Tooling
+### Patch do Eclipse ###
+# Ferramentas Spring Boot
 .sts4-cache/
 
-# End of https://www.toptal.com/developers/gitignore/api/eclipse
+###Linux ###
+*~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver um handle aberto de um arquivo deletado
+.fuse_hidden*
+
+# Preferências do diretório KDE
+.diretório
+
+# Pasta de lixo do Linux que pode aparecer em qualquer partição ou disco
+.Lixo-*
+
+# Os arquivos .nfs são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs*
+
+### Mac OS ###
+# Em geral
+.DS_Store
+.AppleDouble
+.LSO substituir
+
+# O ícone deve terminar com dois \r
+Ícone
+
+
+# Miniaturas
+._*
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Itens Temporários
+.Lixo
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados no compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta Lixo da Rede
+Itens Temporários
+.apdisk
+
+### Patch do macOS ###
+# arquivos gerados pelo iCloud
+*.icloud
+
+### Janelas ###
+# Arquivos de cache de miniaturas do Windows
+Thumbs.db
+Thumbs.db:encriptável
+ehthumbs.db
+ehthumbs_vista.db
+
+# Despejar arquivo
+*.stackdump
+
+# Arquivo de configuração da pasta
+[Dd]esktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$RECICLE.BIN/
+
+# Arquivos do Windows Installer
+*.táxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atalhos do Windows
+*.lnk
+
+# Fim de https://www.toptal.com/developers/gitignore/api/eclipse,windows,linux,macos
