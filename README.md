@@ -16,15 +16,25 @@ A API de cotações utilizada foi do [AwesomeAPI](https://docs.awesomeapi.com.br
 ## Observações
 Por haver um número limitado de combinações foi utilizado apenas as moedas Dólar(USD), Real(BRL) e o Euro(EUR) como moeda "Primarias", uma vez que essas três moedas são as que mais apresentam combinações. Porém, ainda pode haver erro de combinação inválida.
 
+Caso queira vê todas as combinações possíveis existe a versão [Conversor-MoedaV2](https://github.com/andreivan245/Conversor-MoedaV2.git).
+
 ## Instalação
 
-Requer o [Java](https://www.java.com/pt-BR/) instalado.
+
+Requer o [Java](https://www.java.com/pt-BR/) instalado e o [Git](https://git-scm.com/).
 
 Para a instalação escolha uma pasta para clonar o repositório e digite o seguinte comando
 
 ```sh
-$ git clone https://github.com/andreivan245/Conversor-Moeda.git
+git clone https://github.com/andreivan245/Conversor-Moeda.git
 ```
+E por fim execute o arquivo Conversor Moeda.jar
+
+
+Ou se preferir baixe diretamente [aqui](https://github.com/andreivan245/Conversor-Moeda/archive/refs/heads/main.zip) o zip do projeto.
+
+Em seguida extraia
+
 E por fim execute o arquivo Conversor Moeda.jar
 
 ## Bug
