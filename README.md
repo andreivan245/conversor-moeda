@@ -10,8 +10,8 @@
 ## API
 A API de cotações utilizada foi do [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas) que é distribuida gratuitamente e conta com mais de 150 moedas diferentes e cerca de 460 combinações de conversão.
 
--[Moedas aceitas](https://economia.awesomeapi.com.br/xml/available/uniq)
--[Combinações aceitas](https://economia.awesomeapi.com.br/xml/available)
+- [Moedas aceitas](https://economia.awesomeapi.com.br/xml/available/uniq)
+- [Combinações aceitas](https://economia.awesomeapi.com.br/xml/available)
 
 ## Observações
 Por haver um número limitado de combinações foi utilizado apenas as moedas Dólar(USD), Real(BRL) e o Euro(EUR) como moeda "Primarias", uma vez que essas três moedas são as que mais apresentam combinações. Porém, ainda pode haver erro de combinação inválida.
